@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Tienda Midori Shio</title>
+         <meta name="author" content="Juan"/>
+         <meta name="keywords" content="prueba plantilla lm"/>
+         <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+        <style>
+               * {
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                }
+                header {
+                    background-color: #ffffff;
+                    color: black;
+                    height: 200px;
+               
+                }
+                img.logo {
+                    width: 150px;
+                    float: left;
+                    margin-left: 400px;
+                }
+                header > h1 {
+                    float: left;
+                    margin-top: 50px;
+                    margin-left: 30px;
+                    font-size: 70px;
+                    
+                }
+                nav ul {
+                    background-color: #38f3e3;
+                    font-size: 25px;
+                }
+                nav ul li {
+                    display: inline;
+                    color: black;
+                    padding: 10px;
+                    margin-left: 0px;
+                    text-align:left ;
+                }
+                nav ul li a:hover {
+                    color: #fff;
+                }
+
+         
+
+                body{
+                    background-color: #ffffff;
+                }	
+
+                a:link { color: #000; }
+                a:visited {color:#0000}
+                a:link, a:visited, a:active {
+                  text-decoration:none;
+                }
+                article {
+                    margin-left: 250px;
+                    margin-right: 250px;
+                    text-align: justify;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                footer {
+                    text-align: center;
+                    background-color: #adfff8;
+                    padding: 20px;
+
+                }
+
+                img.logo_footer {
+                    width: 50px;
+                    vertical-align: middle;
+                }
+
+                img.logo_footer_midori {
+                    width: 75px;
+                    vertical-align: middle;
+                }
+
+                img.producto {
+                    width: 200px;
+                    padding: 20px;
+                }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Midori Shio SF.png" class="logo"></img>
+            <h1><i>Midori Shio</i></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="tienda_almeria.html">Tienda</a></li>
+                <li><a href="quienes_somos.html">¿Quiénes Somos?</a></li>
+            </ul>
+        </nav>
+        <content>
+            <article>
+                <h1 id="camisetas">Camisetas</h1>
+                <table>
+                    <thead>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="imagenes/camiseta1.png" id="conf1" class="producto"></td>
+                            <td><img src="imagenes/camiseta2.png" id="conf2" class="producto"></td>
+                            <td><img src="imagenes/camiseta3.png" id="conf3" class="producto"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Primera equipación 19/20</strong></td>
+                            <td><strong>Segunda equipación 19/20</strong></td>
+                            <td><strong>Tercera equipación 19/20</strong></td>
+                        </tr>
+                        <tr>
+                            <td id="conf_price">59.99€</td>
+                            <td id="conf_price">59.99€</td>
+                            <td id="conf_price">49.99€</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select>
+                                    <option checked="checked" value="selecciona-talla">--Selecciona una talla--</option>
+                                    <option value="talla-xs">XS</option>
+                                    <option value="talla-s">S</option>
+                                    <option value="talla-m">M</option>
+                                    <option value="talla-l">L</option>
+                                    <option value="talla-xl">XL</option>
+                                    <option value="talla-xxl">XXL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option checked="checked" value="selecciona-talla">--Selecciona una talla--</option>
+                                    <option value="talla-xs">XS</option>
+                                    <option value="talla-s">S</option>
+                                    <option value="talla-m">M</option>
+                                    <option value="talla-l">L</option>
+                                    <option value="talla-xl">XL</option>
+                                    <option value="talla-xxl">XXL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option checked="checked" value="selecciona-talla">--Selecciona una talla--</option>
+                                    <option value="talla-xs">XS</option>
+                                    <option value="talla-s">S</option>
+                                    <option value="talla-m">M</option>
+                                    <option value="talla-l">L</option>
+                                    <option value="talla-xl">XL</option>
+                                    <option value="talla-xxl">XXL</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="camiseta1"/>Comprar</td>
+                            <td><input type="checkbox" name="camiseta2"/>Comprar</td>
+                            <td><input type="checkbox" name="camiseta3"/>Comprar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h1 id="entrenamiento">Entrenamiento</h1>
+                <table>
+                    <thead>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="imagenes/sudadera.png" id="conf1" class="producto"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sudadera entrenamiento 19/20</strong></td>
+                        </tr>
+                        <tr>
+                            <td id="conf_price">39.99€</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select>
+                                  <option checked="checked" value="selecciona-pais">--Selecciona una talla--</option>
+                                  <option value="talla-xs">XS</option>
+                                  <option value="talla-s">S</option>
+                                  <option value="talla-m">M</option>
+                                  <option value="talla-l">L</option>
+                                  <option value="talla-xl">XL</option>
+                                  <option value="talla-xxl">XXL</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="sudadera"/>Comprar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h1 id="accesorios">Accesorios</h1>
+                <table>
+                    <thead>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="imagenes/bufanda.png" id="conf4" class="producto"></td>
+                            <td><img src="imagenes/gorra.png" id="conf2" class="producto"></td>
+                            <td><img src="imagenes/llavero.png" id="conf1" class="producto"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bufanda Almería 19/20</strong></td>
+                            <td><strong>Gorra Almería 19/20</strong></td>
+                            <td><strong>Llavero Almería 19/20</strong></td>
+                        </tr>
+                        <tr>
+                            <td id="conf_price">14.99€</td>
+                            <td id="conf_price">9.99€</td>
+                            <td id="conf_price">2.99€</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="" name="bufanda"/>Comprar</td>
+                            <td><input type="checkbox" id="" name="gorra"/>Comprar</td>
+                            <td><input type="checkbox" id="" name="llavero"/>Comprar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h1 id="balones">Balones</h1>
+                <table>
+                    <thead>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="imagenes/balon_verano.png" id="conf2" class="producto"></td>
+                            <td><img src="imagenes/balon_invierno.png" id="conf5" class="producto"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Balón La Liga 19/20 Verano</strong></td>
+                            <td><strong>Balón La Liga 19/20 Invierno</strong></td>
+                        </tr>
+                        <tr>
+                            <td id="conf_price">19.99€</td>
+                            <td id="conf_price">19.99€</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="prueba" name="balon-verano"/>Comprar</td>
+                            <td><input type="checkbox" id="" name="balon-invierno"/>Comprar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </content><br/><br/><br/>
+        <a href="index.html" class="boton">Salir</a>
+        <a href="formulario_tienda.html" class="boton">Efectuar compra</a>
+        <footer>
+            <img src="imagenes/logo_yt.png" class="logo_footer"></img> Carmen Mar Oficial  
+            <img src="imagenes/logo_insta.png" class="logo_footer"></img>@carmenmaroficial  
+            <img src="imagenes/logo_insta.png" class="logo_footer"></img>@midorishio  
+            <img src="imagenes/Midori Shio SF.png" class="logo_footer_midori"></img>
+        </footer>
+    </body>
+</html>
